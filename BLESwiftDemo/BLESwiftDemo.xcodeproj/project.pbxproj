@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2007B6DB1DB86C520093EFA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007B6DA1DB86C520093EFA3 /* AppDelegate.swift */; };
+		2007B6DD1DB86C520093EFA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007B6DC1DB86C520093EFA3 /* ViewController.swift */; };
+		2007B6E01DB86C520093EFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2007B6DE1DB86C520093EFA3 /* Main.storyboard */; };
+		2007B6E21DB86C520093EFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2007B6E11DB86C520093EFA3 /* Assets.xcassets */; };
+		2007B6E51DB86C520093EFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2007B6E31DB86C520093EFA3 /* LaunchScreen.storyboard */; };
+		2007B6F21DB86CC20093EFA3 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2007B6EE1DB86CC20093EFA3 /* SVIndefiniteAnimatedView.m */; };
+		2007B6F31DB86CC20093EFA3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2007B6EF1DB86CC20093EFA3 /* SVProgressHUD.bundle */; };
+		2007B6F41DB86CC20093EFA3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2007B6F11DB86CC20093EFA3 /* SVProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2007B6D71DB86C520093EFA3 /* BLESwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLESwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2007B6DA1DB86C520093EFA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2007B6DC1DB86C520093EFA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2007B6DF1DB86C520093EFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2007B6E11DB86C520093EFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2007B6E41DB86C520093EFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2007B6E61DB86C520093EFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2007B6ED1DB86CC20093EFA3 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		2007B6EE1DB86CC20093EFA3 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		2007B6EF1DB86CC20093EFA3 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		2007B6F01DB86CC20093EFA3 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		2007B6F11DB86CC20093EFA3 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		2007B6F81DB86D190093EFA3 /* BLESwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLESwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2007B6D41DB86C520093EFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2007B6CE1DB86C520093EFA3 = {
+			isa = PBXGroup;
+			children = (
+				2007B6D91DB86C520093EFA3 /* BLESwiftDemo */,
+				2007B6D81DB86C520093EFA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2007B6D81DB86C520093EFA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2007B6D71DB86C520093EFA3 /* BLESwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2007B6D91DB86C520093EFA3 /* BLESwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2007B6EC1DB86CC20093EFA3 /* SVProgressHUD */,
+				2007B6DA1DB86C520093EFA3 /* AppDelegate.swift */,
+				2007B6DC1DB86C520093EFA3 /* ViewController.swift */,
+				2007B6DE1DB86C520093EFA3 /* Main.storyboard */,
+				2007B6E11DB86C520093EFA3 /* Assets.xcassets */,
+				2007B6E31DB86C520093EFA3 /* LaunchScreen.storyboard */,
+				2007B6E61DB86C520093EFA3 /* Info.plist */,
+				2007B6F81DB86D190093EFA3 /* BLESwiftDemo-Bridging-Header.h */,
+			);
+			path = BLESwiftDemo;
+			sourceTree = "<group>";
+		};
+		2007B6EC1DB86CC20093EFA3 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2007B6ED1DB86CC20093EFA3 /* SVIndefiniteAnimatedView.h */,
+				2007B6EE1DB86CC20093EFA3 /* SVIndefiniteAnimatedView.m */,
+				2007B6EF1DB86CC20093EFA3 /* SVProgressHUD.bundle */,
+				2007B6F01DB86CC20093EFA3 /* SVProgressHUD.h */,
+				2007B6F11DB86CC20093EFA3 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2007B6D61DB86C520093EFA3 /* BLESwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2007B6E91DB86C520093EFA3 /* Build configuration list for PBXNativeTarget "BLESwiftDemo" */;
+			buildPhases = (
+				2007B6D31DB86C520093EFA3 /* Sources */,
+				2007B6D41DB86C520093EFA3 /* Frameworks */,
+				2007B6D51DB86C520093EFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLESwiftDemo;
+			productName = BLESwiftDemo;
+			productReference = 2007B6D71DB86C520093EFA3 /* BLESwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2007B6CF1DB86C520093EFA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = coderYK;
+				TargetAttributes = {
+					2007B6D61DB86C520093EFA3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HVD92P5JVK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2007B6D21DB86C520093EFA3 /* Build configuration list for PBXProject "BLESwiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2007B6CE1DB86C520093EFA3;
+			productRefGroup = 2007B6D81DB86C520093EFA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2007B6D61DB86C520093EFA3 /* BLESwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2007B6D51DB86C520093EFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2007B6E51DB86C520093EFA3 /* LaunchScreen.storyboard in Resources */,
+				2007B6E21DB86C520093EFA3 /* Assets.xcassets in Resources */,
+				2007B6E01DB86C520093EFA3 /* Main.storyboard in Resources */,
+				2007B6F31DB86CC20093EFA3 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2007B6D31DB86C520093EFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2007B6DD1DB86C520093EFA3 /* ViewController.swift in Sources */,
+				2007B6F41DB86CC20093EFA3 /* SVProgressHUD.m in Sources */,
+				2007B6DB1DB86C520093EFA3 /* AppDelegate.swift in Sources */,
+				2007B6F21DB86CC20093EFA3 /* SVIndefiniteAnimatedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2007B6DE1DB86C520093EFA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2007B6DF1DB86C520093EFA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2007B6E31DB86C520093EFA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2007B6E41DB86C520093EFA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2007B6E71DB86C520093EFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2007B6E81DB86C520093EFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2007B6EA1DB86C520093EFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HVD92P5JVK;
+				INFOPLIST_FILE = BLESwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderYK.BLESwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BLESwiftDemo/BLESwiftDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2007B6EB1DB86C520093EFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HVD92P5JVK;
+				INFOPLIST_FILE = BLESwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coderYK.BLESwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BLESwiftDemo/BLESwiftDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2007B6D21DB86C520093EFA3 /* Build configuration list for PBXProject "BLESwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2007B6E71DB86C520093EFA3 /* Debug */,
+				2007B6E81DB86C520093EFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2007B6E91DB86C520093EFA3 /* Build configuration list for PBXNativeTarget "BLESwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2007B6EA1DB86C520093EFA3 /* Debug */,
+				2007B6EB1DB86C520093EFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2007B6CF1DB86C520093EFA3 /* Project object */;
+}
